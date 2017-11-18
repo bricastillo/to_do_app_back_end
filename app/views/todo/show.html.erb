@@ -1,5 +1,14 @@
- <input type="checkbox">
-        <h2 id='show-header'> Why Would You Do That</h2>
+<head>
+        <title> To Do Application </title>
+        <link rel="stylesheet" href="show.css">
+    </head>
+    <body id="bob">
+        <input type="checkbox">
+        <h2> Why Would You Do That</h2>
+        <%= params[:id]%>
+        <%= @todo_description %>
+        <%= @todo_pomodoro_estimate %> <br>
         <a href="#" style="color:#172641"> Edit </a> <br>
         <a href="#"> Delete </a> <br>
         <a href="index.html"> Go Back </a>
+    </body>
