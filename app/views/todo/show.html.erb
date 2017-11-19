@@ -9,6 +9,6 @@
         <%= @todo_description %>
         <%= @todo_pomodoro_estimate %> <br>
         <a href="/todo/edit/<%= @todo.id %>" style="color:#172641"> Edit </a> <br>
-        <a href="#"> Delete </a> <br>
-        <a href="index.html"> Go Back </a>
+        <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a> <br>
+        <a href="/"> Go Back </a>
     </body>
